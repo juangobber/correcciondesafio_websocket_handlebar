@@ -1,0 +1,23 @@
+<div>
+    <h3>Lista de productos en tiempo real</h3>
+    <div>
+        <ul id="productList">
+        </ul>
+    </div>
+    <div>
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="description" placeholder="description">
+        <input type="number" id="price" placeholder="price">
+        <input type="text" id="code" placeholder="code">
+        <input type="text" id="stock" placeholder="stock">
+        <input type="text" id="status" placeholder="status">
+        <input type="text" id="category" placeholder="category">
+        <button id="addButton">Add product</button>
+    </div>
+    <div>
+        <input type="number" id="delete-id" placeholder="Enter an ID product to delete it">
+        <button id="deleteButton">Delete product</button>
+    </div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/script.js"></script>
